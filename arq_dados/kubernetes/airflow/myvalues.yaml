@@ -234,7 +234,7 @@ env:
     value: 'True'
   - name: AIRFLOW_LOGGING_REMOTE_BASE_LOG_FOLDER
     value: "s3://datalake-dev-hgsouza/airflow-logs/"
-  - Name: AIRFLOW_LOOGING_REMOTE_LOG_CONN_ID
+  - name: AIRFLOW_LOOGING_REMOTE_LOG_CONN_ID
     value: "my_aws" 
 # - name: ""
 #   value: ""
@@ -345,7 +345,7 @@ data:
 
 # Fernet key settings
 # Note: fernetKey can only be set during install, not upgrade
-fernetKey: ""5ybO_bMzKkZkUplhEAVAazHSm7QB6KtDMQ4l8pwa0Lo=
+fernetKey: "5ybO_bMzKkZkUplhEAVAazHSm7QB6KtDMQ4l8pwa0Lo="
 fernetKeySecretName: ~
 
 # Flask secret key for Airflow Webserver: `[webserver] secret_key` in airflow.cfg
