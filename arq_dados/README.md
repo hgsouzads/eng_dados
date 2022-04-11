@@ -1,5 +1,5 @@
-# arq_dados
-
-Project started in April 10, 2022.
-
-**Please, complete here information on using and testing this project.**
+Arquiteturas de Dados Escaláveis
+    - Kubernetes
+    - Pipelines de Dados
+    - Orquestração
+    - Processamento de Big Data
